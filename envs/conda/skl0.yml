@@ -1,0 +1,12 @@
+# basic env for sk-learn 
+name: skl0
+channels:
+- conda-forge
+- anaconda
+- defaults
+dependencies:
+- numpy
+- matplotlib
+- pandas
+- scikit-learn
+- scipy

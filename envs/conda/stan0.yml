@@ -1,0 +1,15 @@
+# contains both pystan and rstan for easy dev
+name: stan0
+channels:
+  - conda-forge
+  - defaults
+  - anaconda
+dependencies:
+  - pystan
+  - r-rstan
+  - r-stanheaders
+  - r-rstanarm
+  - r-shinystan
+  - pandas
+  - matplotlib
+  
