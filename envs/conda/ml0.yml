@@ -1,0 +1,30 @@
+# Inclusive env for Machine learning with sklearn, xgboost and many more
+name: ml0
+channels:
+- conda-forge
+- anaconda
+- defaults
+dependencies:
+- numpy
+- pandas
+- scipy
+
+# Visualization
+- seaborn
+- matplotlib
+- bokeh
+
+# ML - stats libs - no GPU
+- statsmodels
+- xgboost
+- sklearn-contrib-lightning   # under package name lightning
+- lightgbm
+- scikit-learn
+- python-crfsuite
+- eli5
+
+# languages
+- NLTK
+
+- pip:
+  - sklearn-crfsuite # not available in conda-forge
