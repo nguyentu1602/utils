@@ -1,15 +1,15 @@
 # contains both pystan and rstan for easy dev
+# for Pystan to work on Windows, need to install MingW-w64 and install C++ compiler
 name: stan0
 channels:
   - conda-forge
   - defaults
   - anaconda
-  - r
 dependencies:
   - pystan
   - r-rstan
   - r-stanheaders
-  - r-rstanarm
+  - r-rstanarm  # might not work on windows
   - r-shinystan
   - pandas
   - matplotlib
