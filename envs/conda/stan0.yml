@@ -4,6 +4,7 @@ channels:
   - conda-forge
   - defaults
   - anaconda
+  - r
 dependencies:
   - pystan
   - r-rstan
